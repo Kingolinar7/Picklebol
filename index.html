@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pickle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="navbar-brand" href="#">Pickle</a>
+        <ul class="navbar-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+          <li><a class="reserve-link" href="#page-1">Reserve Court</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="pages" aria-label="Court pages">
+      <section class="home-hero" aria-labelledby="home-title">
+        <span class="home-eyebrow"><span aria-hidden="true"></span> PICKLEBALL IN DULJO, PASIL</span>
+        <h1 id="home-title">Good games start<br>on a <span>great court.</span></h1>
+        <p>Bring your energy, grab a paddle, and enjoy your next game at Pickle. New players and regulars are all welcome.</p>
+        <div class="home-actions">
+          <a class="learn-more" href="mailto:kekemamberoi@gmail.com?subject=Court%20reservation%20inquiry">Ask about a reservation <span aria-hidden="true">↗</span></a>
+          <a class="home-secondary-link" href="#page-1">Explore the court <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+      <section class="layout" id="page-1" aria-label="Page 1 court">
+        <div class="panel-column panel-column-left">
+          <div class="panel-row panel-row-top">
+            <div class="panel" aria-hidden="true"></div>
+            <div class="panel" aria-hidden="true"></div>
+          </div>
+          <div class="panel panel-middle"></div>
+          <div class="panel-row panel-row-bottom">
+            <div class="panel" aria-hidden="true"></div>
+            <div class="panel" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="panel-spine" aria-hidden="true"></div>
+        <div class="panel-column panel-column-right">
+          <div class="panel-row panel-row-top">
+            <div class="panel" aria-hidden="true"></div>
+            <div class="panel" aria-hidden="true"></div>
+          </div>
+          <div class="panel panel-middle"></div>
+          <div class="panel-row panel-row-bottom">
+            <div class="panel" aria-hidden="true"></div>
+            <div class="panel" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+      <section class="court-content home-court-info" aria-label="Court information">
+        <span class="section-label">YOUR NEXT GAME AWAITS</span>
+        <h2>A place to play, connect, and have fun.</h2>
+        <p>Find us in Duljo, Pasil. Get in touch to ask about court reservations.</p>
+        <a class="learn-more" href="#contact-us">Contact us <span aria-hidden="true">↗</span></a>
+      </section>
+      <section class="court-content about-section" id="about-us" aria-labelledby="about-us-title">
+        <span class="section-label">01 / WHO WE ARE</span>
+        <h1 id="about-us-title">About Us</h1>
+        <p>Pickle is a place to enjoy the game, stay active, and have fun together. Whether you’re new to the court or an experienced player, everyone is welcome.</p>
+      </section>
+      <section class="contact-section" id="contact-us" aria-labelledby="contact-us-title">
+        <div class="contact-intro">
+          <span class="section-label">02 / SAY HELLO</span>
+          <h1 id="contact-us-title">Contact Us</h1>
+          <p>Have a question or want to learn more? Leave us a message and we’ll be happy to hear from you.</p>
+          <div class="contact-details" aria-label="Contact details">
+            <div class="contact-detail">
+              <span class="contact-icon" aria-hidden="true">@</span>
+              <span><strong>Email</strong><br>kekemamberoi@gmail.com</span>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-icon" aria-hidden="true">⌖</span>
+              <span><strong>Location</strong><br>Duljo, Pasil</span>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-icon" aria-hidden="true">☎</span>
+              <span><strong>Phone</strong><br>67676767</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" aria-label="Leave us a message">
+          <label for="contact-name">Name <span aria-hidden="true">*</span></label>
+          <input id="contact-name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+
+          <label for="contact-email">Email <span aria-hidden="true">*</span></label>
+          <input id="contact-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+
+          <label for="contact-message">Message <span aria-hidden="true">*</span></label>
+          <textarea id="contact-message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+
+          <button class="contact-submit" type="button" disabled>Send Message</button>
+          <p class="contact-note">Message sending will be enabled when a contact email or form service is connected.</p>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer" id="page-2">Pickle</footer>
+  </body>
+</html>
